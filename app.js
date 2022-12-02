@@ -88,6 +88,6 @@ app.get("/posts/:postid", function(req, res){
 
 });
 
-app.listen(3000, function() {
+app.listen(0.0.0.0:$PORT, function() {
   console.log("Server started on port 3000");
 });
